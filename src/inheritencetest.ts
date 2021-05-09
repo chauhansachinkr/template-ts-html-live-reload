@@ -1,4 +1,4 @@
-import { Department } from "./department.js";
+import { Department } from "./department";
 export class ITDepartment extends Department {
     budget: number;
     constructor(name: string, employees: string[], budget: number) {
