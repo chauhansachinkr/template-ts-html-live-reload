@@ -1,4 +1,3 @@
-const person: { name: string, age: number } = { name: "sachin", age: 30 }
+import {ITDepartment} from './inheritencetest.js'
 
-console.log("Live server reaload is working")
-console.log(person)
+console.log(new ITDepartment("IT", ['tony', 'stark'], 200)) 
